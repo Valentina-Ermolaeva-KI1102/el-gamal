@@ -67,6 +67,7 @@ int Space(std::ifstream &ifst)
 char* intToChar(int a)
 {
 	char *num = new char[10];
+	if(!a) return "0";
 	int max_d = 0, k = a, j = 0, i = 0, p = 1;
 	while(k)
 	{
