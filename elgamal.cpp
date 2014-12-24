@@ -207,7 +207,6 @@ void Encoding(char *M_fname, char *p_fname, char *g_fname, char *y_fname)
 		if(good_key)
 			break;
 	}
-    key = 73;
 	BigInt KEY(intToChar(key));
 	BigInt DegreeNet[30];
 	DegreeNet[0] = G;
